@@ -785,6 +785,7 @@ div.galleryOverlay {
   font-family: "Caveat", cursive;
   letter-spacing: 2px;
   font-size: 3rem;
+  text-align: center;
 }
 
 .container {
@@ -1130,6 +1131,11 @@ div.social-icon p {
     font-size: 18px;
   }
 
+  div.serviceCaption {
+    background: transparent;
+    color: aliceblue;
+  }
+
   /* section seven --------------------*/
 
   .wrapper.galleryTitle:hover span.recentWork {
@@ -1450,7 +1456,7 @@ div.social-icon p {
   }
 
   div.welcomeContainer {
-    letter-spacing: 40px;
+    letter-spacing: 20px;
     width: 80%;
   }
 
@@ -1472,7 +1478,7 @@ div.social-icon p {
   }
 
   div.award-logo {
-    width: 40%;
+    width: 90%;
     margin: 15px auto;
   }
 
