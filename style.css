@@ -1,36 +1,233 @@
-html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
 
-.clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; }
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
 
- * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    height: 100%;
-    overflow-x:hidden;
+  font-size: 1.6rem;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 img {
-    display:block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .wrapper {
-
   max-width: 1150px;
-  margin:0 auto;
-  border:1px solid rgba(0,0,0,0);
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 /* header styling starts----------------------------------------------------------------------------------------------*/
 
 header nav {
-
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,244 +235,205 @@ header nav {
 }
 
 header {
-
-  background: rgba(0,0,0,0.5) url(assets/people.jpg);
-
+  background: rgba(0, 0, 0, 0.5) url(assets/people.jpg);
 }
 
 /* styling the wrapper of navigation bar */
 
 .wrapper.navigation {
-
   display: flex;
   justify-content: space-between;
-  margin:0 auto;
+  margin: 0 auto;
   border-bottom: 1px solid gray;
-
 }
 
 /* logo styling */
 
 h1 {
-
   margin: 0;
-  font-family: 'Montez', cursive;
-  padding:15px;
-  color:white;
+  font-family: "Montez", cursive;
+  padding: 15px;
+  color: white;
 }
 
 /* navigation list styling */
 
 header ul {
-
   list-style: none;
-  margin:0;
-  padding:0;
-  display:flex;
-  font-family: 'Montserrat', sans-serif;
-  color:white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: white;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
-
 }
 
 header ul li {
-
-  padding:25px 20px;
+  padding: 25px 20px;
   transition: all 0.7s;
   position: relative;
-
 }
 
 header ul li a:visited {
-
-  color:white;
-
+  color: white;
 }
 
 header ul li a {
-
   list-style: none;
   text-decoration: none;
-  color:white;
-
+  color: white;
 }
 
 header ul li:hover a:after {
-
   content: "";
   position: absolute;
   width: auto;
   bottom: 0;
-  color:brown;
+  color: brown;
   /* left: 20px;
   right: 20px; */
   border-bottom: 2px solid #eeb013;
   text-align: center;
 }
 
-
 /* styling the overlay text of header and section 1-3*/
 
-  .overlayText{
+.overlayText {
+  margin: 35vh auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    margin:35vh auto 0;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.overlayText h2 {
+  font-size: 20rem;
+  text-transform: uppercase;
+  transition: all 1s;
+  color: rgba(255, 255, 255, 0.5);
+}
 
-  }
+.overlayTextHeader,
+.overlayTextOne,
+.overlayTextTwo,
+.overlayTextThree {
+  height: 40%;
+}
 
-  .overlayText h2 {
+.overlayTextOne h2 {
+  color: rgba(0, 255, 151, 0.5);
+}
 
-    font-size: 20rem;
-    text-transform: uppercase;
-    transition: all 1s;
-    color: rgba(255,255,255,0.5);
-  }
+.overlayText h2:hover {
+  opacity: 0;
+}
 
-  .overlayTextHeader, .overlayTextOne, .overlayTextTwo, .overlayTextThree {
+/* styling the number of shots */
 
-    height:40%;
+p.shots {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 0 80px;
+  margin: 0 auto;
+}
 
-  }
+.number {
+  transition: all 0.5s;
+}
 
-  .overlayTextOne h2 {
+p.shots:hover .number {
+  text-decoration: line-through;
+  color: gold;
+}
 
+/* arrangement of child element in header and section 1-3 */
 
-  color: rgba(0,255,151,0.5);
+header,
+.section-one,
+.section-two,
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  }
+/* styling the background of section 1-3 */
 
-  .overlayText h2:hover {
+.section-one {
+  background: url(assets/nature.jpg);
+}
 
-    opacity:0;
-  }
+.section-two {
+  background: url(assets/wildlife.jpg);
+}
 
-  /* styling the number of shots */
+.section-three {
+  background: url(assets/object.jpg);
+}
 
-  p.shots {
-
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    text-align: center;
-    font-weight: 700;
-    padding:20px 0 80px;
-    margin: 0 auto;
-
-  }
-
-  .number {
-
-    transition: all 0.5s;
-  }
-
-  p.shots:hover .number {
-
-    text-decoration: line-through;
-    color: gold;
-
-  }
-
-
-  /* arrangement of child element in header and section 1-3 */
-
-  header, .section-one, .section-two, .section-three {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-  }
-
-  /* styling the background of section 1-3 */
-
-  .section-one {
-    background: url(assets/nature.jpg);
-  }
-
-  .section-two {
-
-    background: url(assets/wildlife.jpg);
-  }
-
-  .section-three {
-
-    background: url(assets/object.jpg);
-  }
-
-
-  header,.section-one,.section-two,.section-three {
-
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    background-attachment: fixed;
-
+header,
+.section-one,
+.section-two,
+.section-three {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 /* section four styling -----------------------------------------------------------------------------*/
 
 .section-four {
-
   height: 70vh;
-  margin:60px auto;
-
+  margin: 60px auto;
 }
 
 /* wrapper styling*/
 
 .wrapper.four {
-
-  padding:20px;
+  padding: 20px;
   background-color: white;
   height: 100%;
-
 }
 
 /* styling the welcome text */
 
 div.welcomeContainer {
-
   text-transform: uppercase;
   letter-spacing: 100px;
   text-align: center;
   transition: all 1s ease;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.8rem;
   font-weight: 900;
   color: #555555;
-  width:90%;
-  margin:0 auto;
-  padding:20px 0;
-
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 div.welcomeContainer:hover {
-
   letter-spacing: 3px;
-  color: rgba(0,255,151,0.5);
+  color: rgba(0, 255, 151, 0.5);
 }
 
 div.welcome {
-
   margin-bottom: 80px;
-
 }
 
 /* styling the introduction */
 
 div.aboutContainer {
-
-  display:flex;
+  display: flex;
   justify-content: space-between;
   height: 70%;
   align-items: center;
@@ -284,67 +442,56 @@ div.aboutContainer {
 /* styling the image */
 
 div.aboutImage {
-
-  width:50%;
+  width: 50%;
   box-shadow: 10px 10px 10px grey;
   transition: all 1s;
   margin-right: 30px;
   object-fit: cover;
-  position:relative;
-
+  position: relative;
 }
 
 div.aboutImage:hover {
-
-  box-shadow:  20px 20px 50px;
+  box-shadow: 20px 20px 50px;
 }
 
 /* image border */
 
 div.coolBorder {
-
   background: transparent;
-  position:absolute;
-  top:20px;
-  bottom:20px;
-  left:20px;
-  right:-20px;
-  border:2px solid black;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: -20px;
+  border: 2px solid black;
 }
 
 /* text about the photographers */
 
 div.aboutDetail {
-
   width: 50%;
-  padding:0 20px;
-
+  padding: 0 20px;
 }
 
 span.coma {
-
-  color: rgba(0,255,151,0.5);
-  font-family: 'Montez', cursive;
+  color: rgba(0, 255, 151, 0.5);
+  font-family: "Montez", cursive;
   font-size: 50px;
   margin: 0;
 }
 
 p.aboutTitle {
-
   color: #555555;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   font-size: 2.5rem;
   margin: 0 auto 20px;
-
 }
 
-
-p.about{
-
+p.about {
   color: #555555;
   line-height: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   font-size: 1.4rem;
   margin: 0 auto;
@@ -353,26 +500,21 @@ p.about{
 /* section five styling --------------------------------------------------*/
 
 .wrapper.five {
-
-  display:flex;
+  display: flex;
   height: 50vh;
   justify-content: space-between;
   align-items: center;
-
 }
 
 div.award-logo {
-
-  width:25%;
+  width: 25%;
   height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 div.award-logo img {
-
   display: block;
   object-fit: cover;
   max-width: 100%;
@@ -381,16 +523,12 @@ div.award-logo img {
 
 /* section six styling -------------------------*/
 
-
 .section-six {
-
-  height:70vh;
+  height: 70vh;
   margin: 10vh 0;
-
 }
 
 .wrapper.six {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,8 +538,7 @@ div.award-logo img {
 /* styling title text:Our services */
 
 .ourServices {
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -412,283 +549,240 @@ div.award-logo img {
 /* styling each column */
 
 div.services {
-
-  width:25%;
+  width: 25%;
   height: 35vh;
   position: relative;
-
 }
 
-div.services:hover p.serviceCaption{
-
+div.services:hover p.serviceCaption {
   opacity: 1;
 }
 
 div.services img {
-
   object-fit: cover;
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 
-div.services.one, div.services.three {
-
-  height:40vh;
+div.services.one,
+div.services.three {
+  height: 40vh;
 }
 
 div.serviceCaption {
-
   position: absolute;
-  top:0;
-	left: 0;
-	right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   display: flex;
-	align-items: center;
+  align-items: center;
   justify-content: center;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
   transition: all 0.5s;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   font-size: 2rem;
 }
 
-div.serviceCaption:hover{
-
+div.serviceCaption:hover {
   padding-top: 50%;
   background: transparent;
   color: aliceblue;
-
 }
 
 /* section seven styling ---------------------------------------------*/
 
 .wrapper.seven {
-
-    height:30vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* styling the title text */
 
 .wrapper.galleryTitle {
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #555555;
   text-align: center;
-
 }
 
 span.recentWork {
-
   transition: all 1s;
 }
 
 .wrapper.galleryTitle:hover span.recentWork {
-
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 5rem;
-
 }
 
 /* styling the list: all, people, nature, wildlife, object */
 
-
 ul.galleryList {
-
-  width:80%;
+  width: 80%;
   list-style: none;
-  margin:0 auto;
-  padding:0;
-  display:flex;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
   justify-content: space-around;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
   color: #555555;
-
 }
 
 ul.galleryList li {
-
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul.galleryList li a {
-
   text-decoration: none;
 }
 
 ul.galleryList li a:visited {
-
   color: #555555;
 }
 
 /* styling the diamond */
 
 i.diamond {
-
-  color:#eeb013;
+  color: #eeb013;
   text-align: center;
-  margin-top:10px;
-  opacity:0;
+  margin-top: 10px;
+  opacity: 0;
 }
 
 ul.galleryList li:hover i.diamond {
-
-  opacity:1;
+  opacity: 1;
 }
-
 
 /* section eight styling -----------------------------------------------------------------------------------*/
 
 /* wrapper styling */
 
 .wrapper.eight {
-
-  display:flex;
-  height:170vh;
+  display: flex;
+  height: 170vh;
   justify-content: space-between;
 }
 
 /* column styling (there are total four column in the photo gallery)*/
 
 .column {
-
-  display:flex;
-  width:24%;
+  display: flex;
+  width: 24%;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 /* column one styling*/
 
 div.column.columnOne {
-
   height: 87%;
 }
 
 /* column two styling*/
 
 div.column.columnTwo {
-
   height: 92%;
-
 }
 
 /* column three styling */
 
 div.column.columnThree {
-
   height: 97%;
-
 }
 
 /* column four styling*/
 
 div.column.columnFour {
-
   height: 92%;
-
 }
 
 /* image styling in the photo gallery */
 
 img.gallery {
-
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-
 }
 
 /* container of each image styling */
 
-.container.gallery-image-one,.container.gallery-image-two, .container.gallery-image-three {
-
-  height:32%;
-
+.container.gallery-image-one,
+.container.gallery-image-two,
+.container.gallery-image-three {
+  height: 32%;
 }
 
 .container.gallery-image-four {
-
   height: 23%;
 }
 
 .container.gallery-image-five {
-
   height: 45%;
 }
 
 .container.gallery-image-six {
-
   height: 28%;
 }
 
 .container.gallery-image-seven {
-
   height: 33%;
 }
 
 .container.gallery-image-eight {
-
   height: 34%;
 }
 
 .container.gallery-image-nine {
-
   height: 30%;
 }
 
 .container.gallery-image-ten {
-
   height: 32%;
 }
 
 .container.gallery-image-eleven {
-
   height: 32%;
 }
 
 .container.gallery-image-twelve {
-
   height: 32%;
 }
 
 /* styling the overlay text in the gallery */
 
 div.galleryOverlay {
-
   position: absolute;
-  background: linear-gradient(to right, rgba(74,194,154,0.5), rgba(189,255,243,1));
-  top:0;
-	left: 0;
-	right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(74, 194, 154, 0.5),
+    rgba(189, 255, 243, 1)
+  );
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 0;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
   transition: all 0.5s;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Caveat', cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Caveat", cursive;
   letter-spacing: 2px;
   font-size: 3rem;
-
 }
 
 .container {
@@ -696,42 +790,34 @@ div.galleryOverlay {
 }
 
 .container:hover div.galleryOverlay {
-
   opacity: 1;
   cursor: crosshair;
 }
 
-
 /* section nine styling starts---------------------------------------------------------- */
 
 .section-nine {
-
-  margin:6vh auto 3vh;
-
+  margin: 6vh auto 3vh;
 }
 
 /* section heading styling: what people are saying*/
 
 div.heading {
-
-  margin:1vh auto 2vh;
+  margin: 1vh auto 2vh;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #555555;
-
 }
 
 div.heading p {
-
   margin: 0;
 }
 
 span.saying {
-
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 10rem;
   text-transform: lowercase;
   letter-spacing: 7px;
@@ -740,179 +826,137 @@ span.saying {
 /* styling the review section */
 
 div.reviewSection {
-
   display: flex;
   margin: 10vh 0 5vh;
-
-
-
 }
 
 div.reviewImage {
-
-  width:50%;
+  width: 50%;
   margin-right: 25px;
   transition: all 1s;
-
-
-
 }
 
 div.reviewImage:hover {
-
   transform: scale(1.08);
 }
 
-
-
 div.review {
-
-  width:50%;
-
-
+  width: 50%;
 }
 
 div.reviewName {
-
-  display:flex;
+  display: flex;
   justify-content: space-between;
-
-
-
 }
 
 div.reviewName p {
-
-  margin:0;
-  font-family: 'Caveat', cursive;
+  margin: 0;
+  font-family: "Caveat", cursive;
   font-size: 30px;
-  padding:10px 20px;
+  padding: 10px 20px;
   color: #555555;
 }
 
 div.reviewName p.client {
-
   font-size: 40px;
 }
 
 div.reviewDetail {
-
-    padding: 10px;
-    color: #555555;
-    line-height: 20px;
-
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-
-    font-size: 1.4rem;
-    text-align: center;
-
-    margin: 0 auto;
-
-    opacity:0.1;
-    transition: all 1s;
-
+  padding: 10px;
+  color: #555555;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.1;
+  transition: all 1s;
 }
 
 div.reviewDetail:hover {
-
-  opacity:1;
-
-
-
+  opacity: 1;
 }
 
 /* section ten styling starts ----------------------------------------------------------*/
 
 .section-ten {
-
   margin-bottom: 15vh;
 }
 
-
 div.contactContainer {
-
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
-
 div.contact {
-
   text-transform: uppercase;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #555555;
   text-align: center;
-  flex:1 33%;
-  margin:10vh 0;
+  flex: 1 33%;
+  margin: 10vh 0;
   font-weight: 700;
 }
 
 /* form styling */
 
 div.form {
-
-  width:85%;
-  margin:0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 div.formColumnContainer {
-
   display: flex;
   justify-content: space-between;
 }
 
 div.formColumn {
-
-  width:50%;
+  width: 50%;
 }
 
-input, textarea {
-
-  display:block;
-  font-family: 'Montserrat', sans-serif;
+input,
+textarea {
+  display: block;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  padding:15px 10px;
+  padding: 15px 10px;
   margin-bottom: 20px;
   color: #555555;
   font-weight: 500;
-  width:90%;
-  border: 2px solid rgba(0,0,0,.1);
+  width: 90%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 div.form p {
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   color: #555555;
 }
 
 button.sendMessage {
-  display:block;
+  display: block;
   background-color: darkcyan;
   color: whitesmoke;
   text-transform: uppercase;
   border: none;
-  padding:15px 10px;
-  font-family: 'Montserrat', sans-serif;
+  padding: 15px 10px;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   margin-bottom: 20px;
   font-weight: 700;
-
 }
 
 /* section ten styling ends */
 
 /* footer styling starts -----------------------------------------------------------------------------------------------------*/
 
-
 /* styling the footer section */
 
 footer {
-
-  height:40vh;
-  background:url(assets/footer.jpg);
+  height: 40vh;
+  background: url(assets/footer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -921,31 +965,26 @@ footer {
 /* styling the wrapper */
 
 div.wrapper.footer {
-
   height: 100%;
 }
 
 div.logo {
-
-  font-family: 'Montez', cursive;
+  font-family: "Montez", cursive;
   text-align: center;
   font-size: 30px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 5vh;
   margin-top: 5vh;
 }
 
-div.logo p{
-
+div.logo p {
   margin-top: 5vh;
   margin-bottom: 5vh;
-
 }
 
 /* styling the icon container */
 
 div.social-icon {
-
   display: flex;
   justify-content: center;
 }
@@ -953,218 +992,171 @@ div.social-icon {
 /* styling the p tag */
 
 div.social-icon p {
-
-
-  margin:0 7px;
+  margin: 0 7px;
 }
 
 /* common styling shared by all icons in the footer */
 
 .fab {
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
   text-align: center;
-  padding:5px 0;
+  padding: 5px 0;
   color: white;
-
 }
 
 /* styling the twitter icon */
 
 .fa-twitter {
-
   background-color: #00aced;
-
 }
 
 /* styling the facebook icon */
 
 .fa-facebook-f {
-
   background-color: #3b5998;
-
 }
 
 /* styling the youtube icon */
 
 .fa-youtube {
-
-  background-color:#bb0000;
+  background-color: #bb0000;
 }
 
 /* styling the instagram icon */
 
 .fa-instagram {
-
   background: #125688;
-
 }
 
 /* styling the pinterest icon */
 
 .fa-pinterest {
-
   background: #cb2027;
-
 }
 
 /* styling linkedin icon */
 
 .fa-linkedin {
   background: #007bb5;
-
 }
 
-
 .copyrightText {
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 12px;
   margin-top: 5vh;
 }
 
-
 /* responsive design starts here ----------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 940px) {
-
-
   /* header styling ---------------*/
 
+  header,
+  .section-one,
+  .section-two,
+  .section-three {
+    background-attachment: scroll;
+  }
+
   .wrapper {
-
     max-width: 100%;
-
   }
 
   h1 {
-
-    padding:20px 10px 10px;
+    padding: 20px 10px 10px;
     font-size: 2.5rem;
-
   }
 
   header ul li {
-
-    padding:22px 17px;
+    padding: 22px 17px;
     font-size: 12px;
-
   }
 
-  .overlayText h2{
-
+  .overlayText h2 {
     font-size: 12rem;
   }
 
   p.shots {
-
     font-size: 1.5rem;
-    padding:18px 0 70px;
+    padding: 18px 0 70px;
   }
-
 
   /* section four ----------------*/
 
   .section-four {
-
-    margin:60px auto 70px;
-
+    margin: 60px auto 70px;
   }
 
   div.welcomeContainer {
-
     letter-spacing: 75px;
     font-size: 2.2rem;
     font-weight: 900;
-    width:70%;
-
+    width: 70%;
   }
 
-
   div.aboutImage {
-
-    width:45%;
-
+    width: 45%;
   }
 
   span.coma {
-
     font-size: 45px;
-
   }
 
   p.aboutTitle {
-
     font-size: 2rem;
-
   }
 
-  p.about{
-
-      font-size: 1.2rem;
-
+  p.about {
+    font-size: 1.2rem;
   }
 
   /* section five */
 
   div.award-logo {
-
-    width:23%;
+    width: 23%;
   }
 
   /* section six ----------------------*/
 
   .ourServices {
-
     font-size: 18px;
   }
 
   /* section seven --------------------*/
 
   .wrapper.galleryTitle:hover span.recentWork {
-
     font-size: 4rem;
-
   }
 
   /* section eight -------------------*/
 
   ul.galleryList {
-
-    width:80%;
+    width: 80%;
     font-size: 12px;
-
   }
 
   div.galleryOverlay {
-
     font-size: 2.5rem;
   }
 
   /* section nine ---------------------*/
 
-
-
   /* section: what people are saying*/
 
   div.heading {
-
     font-size: 15px;
     text-align: center;
-
   }
 
   span.saying {
-
     font-size: 8rem;
-
   }
 
   /* container of reviewImage and review */
 
   div.reviewSection {
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1173,170 +1165,127 @@ div.social-icon p {
   /* styling the reviewSection */
 
   div.reviewImage {
-
-    width:100%;
-    margin:0;
-
+    width: 100%;
+    margin: 0;
   }
 
   div.review {
-
-    width:70%;
+    width: 70%;
     margin-top: 30px;
   }
 
   div.reviewName p {
-
     font-size: 25px;
-
   }
 
   div.reviewName p.client {
-
     font-size: 35px;
-
   }
 
   div.reviewDetail {
-
-      font-size: 1.3rem;
-
+    font-size: 1.3rem;
   }
-
 
   /* section ten ------------------------*/
 
   div.contact {
-
     font-size: 1.2rem;
   }
-
 
   /* footer styling */
 
   div.logo {
-
     font-size: 25px;
     margin-bottom: 4vh;
   }
 
   div.social-icon p {
-
     font-size: 1.2rem;
   }
 
   /* footer---------------------------- */
 
   .fab {
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
   }
 
   .copyrightText {
-
     font-size: 11px;
     margin-top: 3vh;
   }
-
 }
 
 /*  @media (max-width: 768px)--------------------------------------------------------------*/
 
-
 @media (max-width: 768px) {
-
   /* header styling ------------------------*/
 
-
   .wrapper {
-
-    width:100vw;
+    width: 100vw;
   }
 
   h1 {
-
     text-align: center;
-    padding:10px;
+    padding: 10px;
     font-size: 2.5rem;
   }
 
   header ul li {
-
-    padding:15px;
+    padding: 15px;
     font-size: 11px;
-
   }
 
   header ul {
-
     justify-content: space-around;
-
   }
 
   .overlayText h2 {
-
     font-size: 9rem;
   }
 
-
   .wrapper.navigation {
-
     flex-direction: column;
-
   }
 
   p.shots {
-
     font-size: 1.4rem;
-
   }
 
   /* section four -----------------------*/
 
   .section-four {
-
-    height:120vh;
-    margin:60px auto 100px;
-
+    height: 120vh;
+    margin: 60px auto 100px;
   }
 
   div.welcomeContainer {
-
     letter-spacing: 55px;
     font-size: 1.6rem;
-    width:90%;
-
+    width: 90%;
   }
 
   div.aboutContainer {
-
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
   div.aboutImage {
-
-    width:70%;
+    width: 70%;
     margin-bottom: 50px;
-
   }
 
-
   div.aboutDetail {
-
     width: 90%;
-
   }
 
   p.aboutTitle {
-
     font-size: 1.4rem;
     text-align: center;
   }
 
-  p.about{
-
+  p.about {
     font-size: 1.1rem;
     text-align: center;
   }
@@ -1344,295 +1293,212 @@ div.social-icon p {
   /* section five-------------------- */
 
   .section-five {
-
     margin-top: 100px;
-    padding:40px; 
+    padding: 40px;
     height: auto;
   }
 
   .wrapper.five {
-
-    height: 100%; 
-    flex-wrap: wrap; 
-  
+    height: 100%;
+    flex-wrap: wrap;
   }
-  
+
   div.award-logo {
-
-    
-    width:45%;
+    width: 45%;
     justify-content: space-around;
-    height:150px; 
-    margin:5px;
-
-  
+    height: 150px;
+    margin: 5px;
   }
-
-  
-
-  
-
-  
 
   /* section six ---------------------*/
 
-
   .ourServices {
-
     font-size: 16px;
   }
 
   div.serviceCaption {
-
     font-size: 1.2rem;
   }
-
 
   /* section seven --------------------*/
 
   .section-seven {
-
     margin-top: 50px;
   }
 
   .wrapper.galleryTitle:hover span.recentWork {
-
     font-size: 3.5rem;
-
   }
 
   /* section eight----------------- */
 
   ul.galleryList {
-
-    width:85%;
+    width: 85%;
     font-size: 11px;
   }
 
   div.galleryOverlay {
-
     font-size: 1.8rem;
   }
 
-  div.column.columnOne, div.column.columnTwo, div.column.columnThree, div.column.columnFour {
-
+  div.column.columnOne,
+  div.column.columnTwo,
+  div.column.columnThree,
+  div.column.columnFour {
     height: 49%;
     margin-bottom: 1%;
   }
 
   .wrapper.eight {
-
     height: 400vh;
     flex-wrap: wrap;
   }
 
   div.column {
-
-    width:49%;
+    width: 49%;
   }
 
   div.review {
-
-    width:75%;
+    width: 75%;
   }
 
-/* section ten -------------------------------*/
+  /* section ten -------------------------------*/
 
   div.contact {
-
     font-size: 1rem;
-    margin:15vh 0;
-
+    margin: 15vh 0;
   }
 
   div.formColumnContainer {
-
     flex-direction: column;
   }
 
   div.formColumn {
-
-    width:100%;
+    width: 100%;
     text-align: center;
-
   }
 
-  input, textarea {
-
-  font-size: 12px;
-  padding:13px 8px;
-  margin: 0 auto 20px;
-  width:80%;
-
+  input,
+  textarea {
+    font-size: 12px;
+    padding: 13px 8px;
+    margin: 0 auto 20px;
+    width: 80%;
   }
 
   button.sendMessage {
-
-    padding:15px 10px;
-    font-family: 'Montserrat', sans-serif;
+    padding: 15px 10px;
+    font-family: "Montserrat", sans-serif;
     font-size: 10px;
     margin: 0 auto 20px;
     font-weight: 700;
   }
 
-/* footer-------------------------------------- */
+  /* footer-------------------------------------- */
 
   footer {
-    
-    height:50vh;
-
+    height: 50vh;
   }
 
   .fab {
-
-    width:20px;
-    height:20px;
-
+    width: 20px;
+    height: 20px;
   }
 
   .copyrightText {
-
     font-size: 10px;
-
   }
-
 }
 
 /* @media (max-width: 480px)------------------------------------------------------------------------ */
 
-
 @media (max-width: 480px) {
-
   /* header styling ----------------------*/
 
   header ul li {
-
-    padding:15px;
+    padding: 15px;
     font-size: 10px;
-
   }
 
   .overlayText h2 {
-
     font-size: 7rem;
-
   }
 
   p.shots {
-
     font-size: 1.2rem;
-
   }
 
   /* section four -----------------------*/
 
   .section-four {
-
     height: 100vh;
     height: auto;
   }
 
   div.welcomeContainer {
-
     letter-spacing: 40px;
     width: 80%;
-    
   }
-
 
   p.aboutTitle {
-
     font-size: 1.2rem;
     text-align: center;
-
   }
 
-  p.about{
-
+  p.about {
     font-size: 1rem;
     text-align: center;
-
   }
 
   /* section five */
 
   .section-five {
-
     margin-top: 100px;
-    padding:40px;
-
+    padding: 40px;
   }
 
   div.award-logo {
-
-    width:40%;
-    margin:15px;
-  
+    width: 40%;
+    margin: 15px;
   }
-  
-/* section six -----------------------*/
+
+  /* section six -----------------------*/
 
   div.serviceCaption {
-
-  font-size: 1rem;
+    font-size: 1rem;
   }
 
-/* section seven -----------------------*/
+  /* section seven -----------------------*/
 
   .section-seven {
-
     margin-top: 100px;
-
   }
 
   /* section eight -----------------------*/
 
   div.galleryOverlay {
-
     font-size: 2rem;
   }
 
-  
-
-  
   /* section nine -----------------------*/
 
   div.review {
-
-    width:70%;
-
+    width: 70%;
   }
 
   /* section ten--------------------- */
 
   div.contactContainer {
-
     flex-direction: column;
   }
 
   div.contact {
-
-    margin:5vh 0;
-
+    margin: 5vh 0;
   }
 
   /* footer */
 
   footer {
-    
-    height:60vh;
-
+    height: 60vh;
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
