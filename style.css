@@ -1274,7 +1274,7 @@ div.social-icon p {
   }
 
   div.welcomeContainer {
-    letter-spacing: 55px;
+    letter-spacing: 40px;
     font-size: 1.6rem;
     width: 90%;
   }
@@ -1473,7 +1473,7 @@ div.social-icon p {
 
   div.award-logo {
     width: 40%;
-    margin: 15px;
+    margin: 15px auto;
   }
 
   /* section six -----------------------*/
